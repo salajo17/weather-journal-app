@@ -13,7 +13,6 @@ document.getElementById('generate').addEventListener("click", performAction)
 function performAction(e){
     const zipCode = document.getElementById('zip').value
     const feelings = document.getElementById('feelings').value;
-    let data2 = [];
 
     getAnimalData1(zipURL+zipCode+apiKey)
 
